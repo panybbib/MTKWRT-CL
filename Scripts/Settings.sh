@@ -11,7 +11,8 @@ mkdir -p files/etc/opkg
 wget -qO- https://raw.githubusercontent.com/sos801107/TP-Link-TL-XDR6086/refs/heads/main/etc/distfeeds.conf > files/etc/opkg/distfeeds.conf
 mkdir -p files/root
 wget -qO- https://raw.githubusercontent.com/sos801107/TP-Link-TL-XDR6086/refs/heads/main/etc/.profile > files/root/.profile
-#修改WIFI名称
+
+#修改WIFI
 mkdir -p files/lib/modules/5.4.284
 wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mt_wifi.ko > files/lib/modules/5.4.284/mt_wifi.ko
 
