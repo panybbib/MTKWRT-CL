@@ -55,7 +55,7 @@ UPDATE_PACKAGE "passwall" "xiaorouji/openwrt-passwall" "main" "pkg"
 UPDATE_PACKAGE "ssr-plus" "fw876/helloworld" "master"
 UPDATE_PACKAGE "luci-app-dnsfilter" "kiddin9/luci-app-dnsfilter" "main"
 UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
-
+UPDATE_PACKAGE "luci-app-partexp" "sirpdboy/luci-app-partexp" "main"
 UPDATE_PACKAGE "alist" "sbwml/luci-app-alist" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "gecoosac" "lwb1978/openwrt-gecoosac" "main"
