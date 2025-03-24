@@ -15,7 +15,7 @@ wget -qO- https://raw.githubusercontent.com/sos801107/TP-Link-TL-XDR6086/refs/he
 #修改WIFI
 mkdir -p files/lib/modules/5.4.284
 wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mt_wifi.ko > files/lib/modules/5.4.284/mt_wifi.ko
-
+wget -qO- https://raw.githubusercontent.com/sos801107/CloseWRT-CI/refs/heads/main/Config/mtkhnat.ko > files/lib/modules/5.4.284/mtkhnat.ko
 
 #修改默认主题
 sed -i "s/luci-theme-bootstrap/luci-theme-$WRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
