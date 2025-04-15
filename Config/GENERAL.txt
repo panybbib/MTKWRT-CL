@@ -40,8 +40,8 @@ CONFIG_PACKAGE_jq=y
 CONFIG_PACKAGE_iperf3-ssl=y
 
 #不常用插件
-CONFIG_PACKAGE_luci-app-vlmcsd=y
-CONFIG_PACKAGE_luci-app-wolplus=y
+CONFIG_PACKAGE_luci-app-vlmcsd=n
+CONFIG_PACKAGE_luci-app-wolplus=n
 CONFIG_PACKAGE_luci-app-wol=n
 CONFIG_PACKAGE_luci-app-unblockneteasemusic=n
 CONFIG_PACKAGE_luci-app-ddns=n
